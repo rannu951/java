@@ -26,7 +26,6 @@ public class MyClass {
         n1.lln.add(n2);
         n1.lln.add(n3);
         
-        
         System.out.println(checkRoutate(n1,n6));
         
     }
@@ -36,9 +35,7 @@ public class MyClass {
         public LinkedList<Node> lln = new LinkedList<Node>();
         public boolean visit = false;
     }
-    
 
-    
     static boolean checkRoutate(Node source, Node target){
         Queue<Node> qu = new LinkedList<Node>();
         qu.add(source);
@@ -58,7 +55,4 @@ public class MyClass {
         }
         return false;
     }
-    
-    
-    
 }
